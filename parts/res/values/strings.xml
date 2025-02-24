@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App Name -->
+    <string name="app_name">AQUOS Parts</string>
+
+     <!-- shdisp -->
+    <string name="shdisp_title">Display Refresh Rate</string>
+    <string name="shdisp_summary">Can get more smooth visual experience</string>
+
+    <!-- shtps -->
+    <string name="shtps_title">シャープの大技</string>
+    <string name="shtps_hr_summary">Can get more silky touch experience but needs more power</string>
+    <string name="shtps_glove_summary">can touchscreen with gloves</string>
+    <string name="shtps_hr_title">High Report Mode</string>
+    <string name="shtps_glove_title">Glove Mode</string>
+
+</resources>

@@ -86,3 +86,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
 
+# Shsub
+PRODUCT_PACKAGES += \
+    android.hardware.shsub@1.0-service.pucci
+
+# SH_FEATHER
+PRODUCT_PACKAGES += \
+    shdisp \
+    shtps_glove \
+    shtps_report
+
+# Device-specific settings
+PRODUCT_PACKAGES += \
+    SHARPParts

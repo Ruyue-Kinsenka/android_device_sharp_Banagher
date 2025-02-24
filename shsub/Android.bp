@@ -1,0 +1,21 @@
+cc_binary {
+    relative_install_path: "hw",
+    defaults: ["hidl_defaults"],
+    name: "android.hardware.shsub@1.0-service.pucci",
+    init_rc: ["android.hardware.shsub@1.0-service.pucci.rc"],
+    vintf_fragments: ["android.hardware.shsub@1.0-service.pucci.xml"],
+    srcs: ["shsub.cpp"],
+    vendor: true,
+    shared_libs: [
+        "libbase",
+        "libhardware",
+        "libhidlbase",
+        "liblog",
+        "libutils",
+        "libbinder_ndk",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+}

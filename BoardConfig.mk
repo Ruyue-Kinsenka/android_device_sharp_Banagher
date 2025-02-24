@@ -68,7 +68,7 @@ BOARD_MKBOOTIMG_ARGS += --second_offset $(BOARD_KERNEL_SECOND_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE) --board ""
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_CONFIG := banagher_defconfig
-TARGET_KERNEL_SOURCE := kernel/sharp/msm4.19
+TARGET_KERNEL_SOURCE := kernel/sharp/msm-4.19
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

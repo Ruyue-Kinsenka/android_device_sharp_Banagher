@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/shtps_title">
+
+    <SwitchPreference
+        android:key="shdisp_key"
+        android:defaultValue="false"
+        android:title="@string/shdisp_title"
+        android:summary="@string/shdisp_summary" />
+        
+    <SwitchPreference
+        android:key="shtps_hr_key"
+        android:defaultValue="false"
+        android:title="@string/shtps_hr_title"
+        android:summary="@string/shtps_hr_summary" />
+
+     <SwitchPreference
+        android:key="shtps_glove_key"
+        android:defaultValue="false"
+        android:title="@string/shtps_glove_title"
+        android:summary="@string/shtps_glove_summary" />
+</PreferenceScreen>

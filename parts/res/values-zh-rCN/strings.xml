@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+     <!-- shdisp -->
+    <string name="shdisp_title">高速显示</string>
+    <string name="shdisp_summary">可以提供更流畅的视觉体验</string>
+
+     <!-- shtps -->
+    <string name="shtps_hr_summary">可以提供120hz触控采样但是耗电增加</string>
+    <string name="shtps_glove_summary">可以带手套同时进行触摸操作</string>
+    <string name="shtps_hr_title">高采样率</string>
+    <string name="shtps_glove_title">手套模式</string>
+
+</resources>
