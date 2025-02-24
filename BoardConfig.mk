@@ -84,6 +84,10 @@ BOARD_VENDOR_KERNEL_MODULES += $(wildcard $(BANAGHER_PREBUILT)/modules/vendor/*.
 PRODUCT_COPY_FILES += $(BANAGHER_PREBUILT)/dtb.img:dtb.img
 endif
 
+# Prebuilt vendor
+BOARD_PREBUILT_VENDORIMAGE := device/sharp/Banagher-prebuilt/vendor.img
+BOARD_PREBUILT_VENDORIMAGE := device/sharp/Banagher-prebuilt/odm.img
+
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
