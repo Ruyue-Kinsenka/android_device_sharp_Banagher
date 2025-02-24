@@ -83,7 +83,31 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Common init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.recovery.qcom.rc
+    init.recovery.qcom.rc \
+    init.qcom.factory.rc \
+    init.target.wigig.rc \
+    init.target.rc \
+    init.qti.ufs.rc \
+    init.qcom.usb.rc \
+    init.qcom.rc \
+    init.qcom.factory.rc \
+    qca6234-service.sh \
+    init.qti.qcv.sh \
+    init.qti.media.sh \
+    init.qti.dcvs.sh \
+    init.qti.chg_policy.sh \
+    init.qcom.usb.sh \
+    init.qcom.sh \
+    init.qcom.sensors.sh \
+    init.qcom.sdio.sh \
+    init.qcom.post_boot.sh \
+    init.qcom.efs.sync.sh \
+    init.qcom.early_boot.sh \
+    init.qcom.coex.sh \
+    init.qcom.class_core.sh \
+    init.mdm.sh \
+    init.crda.sh \
+    init.class_main.sh
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
